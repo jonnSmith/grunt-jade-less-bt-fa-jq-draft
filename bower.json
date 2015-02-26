@@ -1,0 +1,13 @@
+{
+    "name": "theflow",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "font-awesome": "latest",
+        "jquery": "1.11.1",
+        "bootstrap": "3.3"
+    }
+}
