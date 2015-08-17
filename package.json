@@ -1,18 +1,24 @@
 {
-    "name": "theflow",
-    "description": "jirakiller",
-    "repository": "https://bitbucket.org/ksepinc/theflow",
+    "name": "project",
+    "description": "website",
+    "directory":"../../Winginx/home/project.local/public_html/",
+    "repository": "https://github.com/jonnSmith/staticDraft",
     "dependencies": {},
     "devDependencies": {
         "grunt": "^0.4.5",
         "gruntfile-gtx": "^0.3.0",
-        "grunt-bower-install-simple": "^0.9.3",
+        "grunt-bower-install-simple": "^1.1.x",
         "grunt-contrib-clean": "^0.6.0",
-        "grunt-contrib-concat": "^0.5.0",
-        "grunt-contrib-copy": "^0.5.0",
-        "grunt-contrib-uglify": "^0.5.1",
-        "grunt-recess": "^1.0.0",
-        "grunt-contrib-jade": "0.8.x",
-        "require-directory": "^2.0.0"
+        "grunt-contrib-concat": "^0.5.1",
+        "grunt-contrib-copy": "^0.8.0",
+        "grunt-contrib-uglify": "^0.9.1",
+        "grunt-recess": "^1.0.1",
+        "grunt-contrib-jade": "^0.15.x",
+        "grunt-jade-php": ">=0.1",
+        "grunt-jade": "^0.5.x",
+        "grunt-pleeease": "^1.3.2",
+        "grunt-contrib-watch": "^0.6.1",
+        "require-directory": "^2.1.1",
+        "grunt-mocha": "^0.4.11"
     }
 }

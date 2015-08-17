@@ -3,8 +3,8 @@ module.exports = {
         src:[
             'bower_components/jquery/dist/jquery.js',
             'bower_components/bootstrap/dist/js/bootstrap.js',
-            'js/scripts.js'
+            'js/custom.js'
         ],
-        dest:'public_html/js/compiled.js'
+        dest:'<%= package.directory %>assets/js/compiled.js'
     }
 }
