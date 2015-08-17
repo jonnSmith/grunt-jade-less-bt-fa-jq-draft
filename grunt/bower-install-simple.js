@@ -1,7 +1,16 @@
 module.exports = {
     options: {
         color: false,
-        production: false,
         directory: 'bower_components'
+    },
+    "prod": {
+        options: {
+            production: true
+        }
+    },
+    "dev": {
+        options: {
+            production: false
+        }
     }
 };

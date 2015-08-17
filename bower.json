@@ -1,5 +1,6 @@
 {
-    "name": "theflow",
+    "name": "project",
+    "version": "0.0.1",
     "ignore": [
         "**/.*",
         "node_modules",
@@ -8,6 +9,9 @@
     "dependencies": {
         "font-awesome": "latest",
         "jquery": "1.11.1",
-        "bootstrap": "3.3"
+        "bootstrap": ">=3.3"
+    },
+    "resolutions": {
+        "jquery": "1.11.1"
     }
 }
