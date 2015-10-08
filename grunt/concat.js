@@ -3,7 +3,7 @@ module.exports = {
         src:[
             'bower_components/jquery/dist/jquery.js',
             'bower_components/bootstrap/dist/js/bootstrap.js',
-            'js/custom.js'
+            'compiled-js/coffee.js'
         ],
         dest:'<%= package.directory %>assets/js/compiled.js'
     }
