@@ -1,12 +1,12 @@
 module.exports = {
     build: {
         auth: {
-            host: '127.0.0.1',
-            authKey: 'key'
+            host: 'host_ip',
+            authKey: '.ftppass_key_name'
         },
         src: '<%= package.directory %>',
-        dest: '/var/www/vhosts/forumdaily.iskra.ua/public/wp-content/themes/forumdaily',
-        exclusions: ['<%= package.directory %>**/.idea'],
+        dest: 'remote_project_folder',
+        exclusions: ['<%= package.directory %>**/.idea','<%= package.directory %>**/.git'],
         serverSep: '/',
         progress: true
     }
